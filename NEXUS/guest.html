@@ -1,0 +1,322 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NEXUS</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" ></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" ></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- remixcon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- boxicon -->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!-- googlefont -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- start nav -->
+    <header>
+        <!-- <a href="#" id="logo"><i class="ri-home-3-line"></i><span>logo</span></a> -->
+        <img src="img/logo.png" class="b-s-img">
+
+        <ul id="navbar">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="Pages/about us/ab_us.html">About us</a></li>
+            <li><a href="Pages/sevices/service.html">Services</a></li>
+            <li><a href="Pages/contact_us/cs.html">Contact</a></li>
+        </ul>
+
+    <div id="main">
+        <a href="#" id="user"><i class="ri-user-3-fill"></i>Guest</a>
+        <a href="Pages/login/login.html">Register</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </div>
+    </header>  
+    <!-- end nav -->
+
+
+    <!-- body -->
+    <section class="banner">
+    <div class="b-s-d">
+        <div> 
+        <h1>Find the perfect job that u deserve</h1>
+        <br/>
+        <div class="search-menu">
+      <div class="search-bar">
+        <input type="text" list="input" class="search-box" autofocus placeholder="job" />
+        <datalist id="input">
+          <option id="teacher">teacher</option>
+          <option id="s_p">Service_providerr</option>
+          <option id="n_j">Nursing</option>
+          <option id="nwtworking">Networking</option>
+          <option id="marketing">Marketing</option>
+          <option id="architect">Architect</option>
+          <option id="accountant">Accountant</option>
+        </datalist>
+     </div>
+      <div class="search-location">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin">
+          <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+            <circle cx="12" cy="10" r="3" />
+        </svg>
+        <input type="text" class="search-box" autofocus placeholder="location" />
+      </div>
+      <div class="search-job">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-briefcase">
+            <rect x="2" y="7" width="20" height="14" rx="2" ry="2" />
+              <path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16" />
+          </svg>
+          <input type="text" placeholder="Job Type">
+      </div>
+      <div class="search-salary">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" fill="currentColor" stroke-width=".4">
+            <path d="M12.6 18H9.8a.8.8 0 010-1.5h2.8a.9.9 0 000-1.8h-1.2a2.4 2.4 0 010-4.7h2.8a.8.8 0 010 1.5h-2.8a.9.9 0 000 1.8h1.2a2.4 2.4 0 010 4.7z" stroke="currentColor" />
+                  <path d="M12 20a.8.8 0 01-.8-.8v-2a.8.8 0 011.6 0v2c0 .5-.4.8-.8.8zM12 11.5a.8.8 0 01-.8-.8v-2a.8.8 0 011.6 0v2c0 .5-.4.8-.8.8z" stroke="currentColor" />
+                    <path d="M21.3 23H2.6A2.8 2.8 0 010 20.2V3.9C0 2.1 1.2 1 2.8 1h18.4C22.9 1 24 2.2 24 3.8v16.4c0 1.6-1.2 2.8-2.8 2.8zM2.6 2.5c-.6 0-1.2.6-1.2 1.3v16.4c0 .7.6 1.3 1.3 1.3h18.4c.7 0 1.3-.6 1.3-1.3V3.9c0-.7-.6-1.3-1.3-1.3z" stroke="currentColor" />
+                        <path d="M23.3 6H.6a.8.8 0 010-1.5h22.6a.8.8 0 010 1.5z" stroke="currentColor" />
+          </svg>
+          <input type="text" placeholder="Salary Range">
+      </div>
+        <button class="search-button">Find Job</button>
+      </div>
+        </div>
+
+    </div>
+    <br/>
+        <div id="banner_text">
+            <p> <hr/>browse job offers by category and location</p>
+        </div> 
+    </section>
+
+    <!-- card -->
+    <div class="wrapper">
+        <h1 id="card_text">Submit ur applicaton and let our teams do the rest</h1>
+        <div class="cols">
+            <div class="col" ontouchstart="this.classList.toggle('hover');">
+                <div class="container">
+                    <div class="front" style="background-image: url(img/1.png)">
+                        <div class="inner">
+                            <p>Wayne</p>
+              <span></span>
+                        </div>
+                    </div>
+                    <div class="back">
+                        <div class="inner">
+                          <p>secret of a successful life is to find out what is one's destiny to do, and then do it</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col" ontouchstart="this.classList.toggle('hover');">
+                <div class="container">
+                    <div class="front" style="background-image: url(img/2.png)">
+                        <div class="inner">
+                            <p>Strizzes</p>
+              <span></span>
+                        </div>
+                    </div>
+                    <div class="back">
+                        <div class="inner">
+                            <p>You are never too old to set another goal or to dream a new dream.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col" ontouchstart="this.classList.toggle('hover');">
+                <div class="container">
+                    <div class="front" style="background-image: url(img/3.png)">
+                        <div class="inner">
+                            <p>Clossyo</p>
+              <span></span>
+                        </div>
+                    </div>
+                    <div class="back">
+                        <div class="inner">
+                            <p>Choose a job you love, and you will never have to work a day in your life.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end -->
+
+   <!-- featured card -->
+   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+<div id="slider">
+  <div class="dp-wrap">
+    <div id="dp-slider">
+
+      <div class="dp_item" data-class="1" data-position="1">
+        <div class="dp-content">
+
+          <h2>Financier</h2>
+          <p> Excel in the finance job market with our exceptional job seeking platform.</p>
+          <a href="#" class="site-btn">Read More…</a>
+        </div>
+        <div class="dp-img">
+          <img class="img-fluid" src="img/finance.png" alt="investing">
+        </div>
+      </div>
+
+      <div class="dp_item" data-class="2" data-position="2">
+        <div class="dp-content">
+          <h2>Accountant/assitant manager</h2>
+          <p> Elevate your accounting career with our top job opportunities.</p>
+          <a href="#" class="site-btn">Read More…</a>
+        </div>
+        <div class="dp-img">
+          <img class="img-fluid" src="img/accountant.png" alt="investing">
+        </div>
+      </div>
+
+      <div class="dp_item" data-class="3" data-position="3">
+        <div class="dp-content">
+
+          <h2>Supervisor</h2>
+          <p> Maximize your leadership journey with our powerhouse supervisor job opportunities, and take your career to new heights</p>
+          <a href="#" class="site-btn">Read More…</a>
+        </div>
+        <div class="dp-img">
+          <img class="img-fluid" src="img/supervisor.png" alt="investing">
+        </div>
+      </div>
+
+      <div class="dp_item" data-class="4" data-position="4">
+        <div class="dp-content">
+
+          <h2>Executive</h2>
+          <p> Take the reins of your career with our exceptional manager job opportunities, and steer your way to professional greatness</p>
+          <a href="#" class="site-btn">Read More…</a>
+        </div>
+        <div class="dp-img">
+          <img class="img-fluid" src="img/Executive.png" alt="investing">
+        </div>
+      </div>
+    </div>
+
+    <span id="dp-next">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 51.401 51.401">
+        <defs>
+          <style>
+            .cls-1 {
+              fill: none;
+              stroke: gold;
+              stroke-miterlimit: 10;
+              stroke-width: 7px;
+            }
+          </style>
+        </defs>
+        <path id="Rectangle_4_Copy" data-name="Rectangle 4 Copy" class="cls-1" d="M32.246,0V33.178L0,31.953" transform="translate(0.094 25.276) rotate(-45)" />
+      </svg>
+    </span>
+
+    <span id="dp-prev">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 51.401 51.401">
+        <defs>
+          <style>
+            .cls-1 {
+              fill: none;
+              stroke: gold;
+              stroke-miterlimit: 10;
+              stroke-width: 7px;
+            }
+          </style>
+        </defs>
+        <path id="Rectangle_4_Copy" data-name="Rectangle 4 Copy" class="cls-1" d="M32.246,0V33.178L0,31.953" transform="translate(0.094 25.276) rotate(-45)" />
+      </svg>
+    </span>
+
+    <ul id="dp-dots">
+      <li data-class="1" class="active"></li>
+      <li data-class="2"></li>
+      <li data-class="3"></li>
+      <li data-class="4"></li>
+    </ul>
+  </div>
+</div>
+   <!-- end -->
+<br/><br/><br/><br/><br/>
+   <!-- review page -->
+   <section class="services" id="services">
+  <div class="main-text">
+    <h2>Review</h2>
+    <h4>Better Edits,Better Experiences</h4>
+  </div>
+  <div class="services-content">
+    <div class="box">
+      <i class="ri-user-3-line"></i>
+      <h3>Emma Jason</h3>
+      <p>Impressive job search platform with intuitive interface, personalized recommendations and overall being helpful</p>
+    </div>
+
+    <div class="box">
+      <i class="ri-user-3-line"></i>
+      <h3>David Kim</h3>
+      <p>Nexus job seeking website provides an impressive range of job opportunities,Highly recommended for job seekers.</p>
+    </div>
+
+    <div class="box">
+      <i class="ri-user-3-line"></i>
+      <h3>Samantha Lee</h3>
+      <p>From my experience, Nexus job seeking website was excellent.User-friendly interface make my research easier</p>
+    </div>
+  </div>
+
+</section>
+   <!-- end review page -->
+
+    <!-- footer -->
+
+<section class="contact" id="contact">
+  <div class="contact-text">
+    <h1>Contact</h1>
+    <h4>Let's Work Togeather</h4>
+    <p>Your next career is our hand</p>
+    <div class="contact-list">
+      <li><a href="#">Nexus</a></li>
+      <li><a href="#">Nexusbusinessemail.com</a></li>
+      <li><a href="#">09772985389</a></li>
+      <div class="contact-icons">
+      <a href="#"><i class='bx bxl-linkedin' undefined ></i></a>
+      <a href="#"><i class='bx bxl-facebook'></i></a>
+      <a href="#"><i class='bx bxl-instagram' ></i></a>
+    </div>
+    </div>
+
+  </div>
+  <div class="contact-form">
+    <form action="">
+      <input type="" name="" placeholder="Enter Your Name"required>
+      <input type="email" name="" placeholder="Enter Your Email" required>
+      <input type="" name="" placeholder="Enter Your Subject">
+      <textarea name="" id="" cols="40" rows="10" placeholder="Enter Your Message" required></textarea>
+      <input type="submit" name="" value="Submit" class="send">
+    </form>
+  </div>
+</section>
+<div class="last-text">
+  <p>Developed with passion and love by Nexus © 2023</p>
+</div>
+    <!-- end -->
+
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script><script  src="Project.js"></script>
+
+</body>
+</html>
